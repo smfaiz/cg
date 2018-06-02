@@ -74,7 +74,7 @@ int main(int argc,char **argv)
 	glutInitWindowSize(800,800);
 	glutInitWindowPosition(0,0);
 	glutCreateWindow("Rotate Created Triangle");
-	myInit();
+		myInit();
 	glutDisplayFunc(display);
 	glutCreateMenu(rotate_menu);
 		glutAddMenuEntry("Rotate Around Origin",1);
