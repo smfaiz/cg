@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<GLUT/glut.h>
+#include<GL/glut.h>
 int x,y;
 int where_to_rotate=0;
 float translate_x=0.0,translate_y=0.0,rotate_angle=0.0;
