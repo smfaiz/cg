@@ -1,8 +1,7 @@
 #include<GL/glut.h>
 
 void obj(double tx,double ty,double tz,double sx,double sy,double sz)
-{
-	glRotated(50,0,1,0);
+{	glRotated(50,0,1,0);
 	glRotated(10,-1,0,0);
 	glRotated(11.7,0,0,-1);
 	glTranslated(tx,ty,tz);
